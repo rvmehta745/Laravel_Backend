@@ -18,8 +18,8 @@ Route::get('/', function () {
 
 /* Backend Panel Routes */
 
-Route::get('admin/login','AuthController@getLogin')->name('admin.login');
-Route::post('admin/login','AuthController@postLogin')->name('admin.post.login');
+Route::get('admin/login','Admin\AuthController@getLogin')->name('admin.login');
+Route::post('admin/login','Admin\AuthController@postLogin')->name('admin.post.login');
 
 Route::group(['prefix' => 'admin','namespace' => 'Admin'],function(){
 
@@ -27,3 +27,6 @@ Route::group(['prefix' => 'admin','namespace' => 'Admin'],function(){
 	Route::delete('/logout','AuthController@Logout')->name('admin.logout');
 
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

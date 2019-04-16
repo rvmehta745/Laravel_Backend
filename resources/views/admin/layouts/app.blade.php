@@ -29,11 +29,14 @@
 	@include('admin.shared.sidebar')
 
 	<!-- Fetch Content -->
-	@yield('content')
+	<div class="main-container">
+		<div class="customscroll customscroll-10-p height-100-p xs-pd-20-10 pd-ltr-20">
+			@yield('content')
 
-	<!-- Include Footer Section  -->
-	@include('admin.shared.footer')
-
+			<!-- Include Footer Section  -->
+			@include('admin.shared.footer')
+		</div>
+	</div>
 	<!-- js -->
 	<script src="{!! asset('js/admin.js') !!}"></script>
 	@yield('scripts')
