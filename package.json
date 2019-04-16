@@ -25,7 +25,6 @@
     },
     "dependencies": {
         "bootstrap-select": "^1.13.2",
-        "bootstrap3-wysihtml5-npm": "^0.3.3-npm.12",
         "font-awesome": "^4.7.0",
         "highcharts": "^6.1.4",
         "jquery-equal-height": "^1.0.4",
