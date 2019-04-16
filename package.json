@@ -20,6 +20,18 @@
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
-        "vue": "^2.5.17"
+        "vue": "^2.5.17",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "bootstrap-select": "^1.13.2",
+        "bootstrap3-wysihtml5-npm": "^0.3.3-npm.12",
+        "font-awesome": "^4.7.0",
+        "highcharts": "^6.1.4",
+        "jquery-equal-height": "^1.0.4",
+        "malihu-custom-scrollbar-plugin": "^3.1.5",
+        "plupload": "^2.3.6",
+        "select2": "^4.0.6-rc.1",
+        "tooltip": "^1.6.1"
     }
 }
